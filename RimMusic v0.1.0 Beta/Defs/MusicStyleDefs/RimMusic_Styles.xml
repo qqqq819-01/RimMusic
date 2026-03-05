@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RimMusic.Data.MusicStyleDef>
+    <defName>RimMusic_Style_Celtic</defName>
+    <label>Celtic Tavern</label>
+    <minTechLevel>Neolithic</minTechLevel>
+    <maxTechLevel>Medieval</maxTechLevel>
+    
+    <matchKeywords>
+      <li>celtic</li><li>tavern</li><li>medieval</li><li>traditional</li><li>folk</li>
+      <li>acoustic</li><li>nature</li><li>rustic</li><li>ritual</li><li>shamanic</li>
+      <li>joyful</li><li>primitive</li><li>sacred</li><li>campfire</li><li>tribe</li>
+      <li>harvest</li><li>mystic</li><li>forest</li><li>star</li><li>wind</li>
+      <li>nomad</li><li>wooden</li><li>chant</li><li>pagan</li><li>ancient</li>
+      <li>village</li><li>peaceful</li><li>lively</li><li>dance</li><li>acoustic</li>
+    </matchKeywords>
+    
+    <leadInstruments>
+      <li>Irish Flute</li>
+      <li>Tin Whistle</li>
+      <li>Uilleann Pipes (Short Drones)</li>
+      <li>Fiddle (Fast Bowing)</li>
+    </leadInstruments>
+    <harmonyInstruments>
+      <li>Irish Harp</li>
+      <li>Acoustic Lute</li>
+      <li>Bouzouki (Plucked)</li>
+    </harmonyInstruments>
+    <percussionInstruments>
+      <li>Bodhrán (Frame Drum)</li>
+      <li>Tambourine</li>
+      <li>Bone Castanets</li>
+    </percussionInstruments>
+    <padInstruments />
+    <bassInstruments>
+      <li>Viola da Gamba (Deep Bowing)</li>
+      <li>Theorbo (Plucked Bass)</li>
+    </bassInstruments>
+  </RimMusic.Data.MusicStyleDef>
+
+  <RimMusic.Data.MusicStyleDef>
+    <defName>RimMusic_Style_Cyberpunk</defName>
+    <label>Cyberpunk Synth</label>
+    <minTechLevel>Spacer</minTechLevel>
+    <maxTechLevel>Archotech</maxTechLevel>
+    
+    <matchKeywords>
+      <li>cyberpunk</li><li>electronic</li><li>sci-fi</li><li>void</li><li>neural</li>
+      <li>mechanical</li><li>future</li><li>synth</li><li>digital</li><li>archotech</li>
+      <li>distortion</li><li>industrial</li><li>neon</li><li>claustrophobic</li><li>tech</li>
+      <li>oppressive</li><li>cold</li><li>dissonant</li><li>bionic</li><li>matrix</li>
+      <li>algorithm</li><li>transcendence</li><li>divine</li><li>pulse</li><li>link</li>
+      <li>holographic</li><li>hacker</li><li>cybernetic</li><li>megacity</li><li>dystopia</li>
+    </matchKeywords>
+    
+    <leadInstruments>
+      <li>FM Synthesizer Lead</li>
+      <li>Distorted Electric Guitar</li>
+      <li>Vocoder Voice Synth</li>
+    </leadInstruments>
+    <harmonyInstruments>
+      <li>Digital Arpeggiator</li>
+      <li>Clean Electric Guitar (Chorus)</li>
+    </harmonyInstruments>
+    <percussionInstruments>
+      <li>808 Electronic Drum Kit</li>
+      <li>Glitch Noise Percussion</li>
+      <li>Heavy Industrial Kick Drum</li>
+    </percussionInstruments>
+    <padInstruments>
+      <li>Wavetable Synth Pad</li>
+      <li>Analog Drone (Slow Attack)</li>
+    </padInstruments>
+    <bassInstruments>
+      <li>Sub-Bass Synthesizer (Deep Oscillation)</li>
+      <li>Electric Bass Guitar (Slapped)</li>
+    </bassInstruments>
+  </RimMusic.Data.MusicStyleDef>
+
+  <RimMusic.Data.MusicStyleDef>
+    <defName>RimMusic_Style_Insectoid</defName>
+    <label>Hive Mind Resonance</label>
+    <minTechLevel>Animal</minTechLevel>
+    <maxTechLevel>Archotech</maxTechLevel>
+    
+    <matchKeywords>
+      <li>insectoid</li><li>hive</li><li>swarm</li><li>chitin</li><li>biological</li>
+      <li>mutation</li><li>creepy</li><li>crawling</li><li>parasite</li><li>alien</li>
+      <li>cave</li><li>underground</li><li>dark</li><li>monster</li><li>venom</li>
+      <li>slime</li><li>hatch</li><li>pulse</li><li>nest</li><li>buzz</li>
+      <li>hiss</li><li>gross</li><li>arthropod</li><li>bloodthirsty</li><li>twisted</li>
+      <li>devour</li><li>breed</li><li>abyss</li><li>scream</li><li>savage</li>
+    </matchKeywords>
+    
+    <leadInstruments>
+      <li>Chitin Scraping Bow</li>
+      <li>Tracheal Flute</li>
+    </leadInstruments>
+    <harmonyInstruments>
+      <li>Silk Tension Strings</li>
+      <li>Bio-Acoustic Resonator</li>
+    </harmonyInstruments>
+    <percussionInstruments>
+      <li>Mandible Clackers</li>
+      <li>Thorax Drum</li>
+    </percussionInstruments>
+    <padInstruments>
+      <li>Subterranean Hum (Drone)</li>
+      <li>Viscous Liquid Pad</li>
+    </padInstruments>
+    <bassInstruments>
+      <li>Deep Hive Rumble</li>
+      <li>Glandular Bass</li>
+    </bassInstruments>
+  </RimMusic.Data.MusicStyleDef>
+
+  <RimMusic.Data.MusicStyleDef>
+    <defName>RimMusic_Style_Wasteland</defName>
+    <label>Wasteland Chaos</label>
+    <minTechLevel>Industrial</minTechLevel>
+    <maxTechLevel>Spacer</maxTechLevel>
+    
+    <matchKeywords>
+      <li>wasteland</li><li>raider</li><li>cult</li><li>blood</li><li>rust</li>
+      <li>savage</li><li>madness</li><li>scrap</li><li>violence</li><li>despair</li>
+      <li>cannibal</li><li>fanatic</li><li>pillage</li><li>bone</li><li>pain</li>
+      <li>junk</li><li>patchwork</li><li>war</li><li>drum</li><li>sacrifice</li>
+      <li>desolate</li><li>ruin</li><li>survival</li><li>scavenger</li><li>apocalypse</li>
+      <li>grimy</li><li>dust</li><li>barren</li><li>brutal</li><li>chaotic</li>
+    </matchKeywords>
+    
+    <leadInstruments>
+      <li>Rusty Saw Blade</li>
+      <li>Scrap Metal Guitar</li>
+    </leadInstruments>
+    <harmonyInstruments>
+      <li>Detuned Upright Piano</li>
+      <li>Wire Lute</li>
+    </harmonyInstruments>
+    <percussionInstruments>
+      <li>Oil Drum Percussion</li>
+      <li>Bone Marimba</li>
+      <li>Chain Rattles</li>
+    </percussionInstruments>
+    <padInstruments>
+      <li>Radio Static Drone</li>
+      <li>Desert Wind Pad</li>
+    </padInstruments>
+    <bassInstruments>
+      <li>Junk Bass</li>
+      <li>Heavy Stomp Percussion</li>
+    </bassInstruments>
+  </RimMusic.Data.MusicStyleDef>
+
+  <RimMusic.Data.MusicStyleDef>
+    <defName>RimMusic_Style_Mechanoid</defName>
+    <label>Automated March</label>
+    <minTechLevel>Industrial</minTechLevel>
+    <maxTechLevel>Archotech</maxTechLevel>
+    
+    <matchKeywords>
+      <li>mechanoid</li><li>machine</li><li>steel</li><li>automated</li><li>cold</li>
+      <li>relentless</li><li>gear</li><li>piston</li><li>factory</li><li>reactor</li>
+      <li>code</li><li>matrix</li><li>circuit</li><li>ai</li><li>electric</li>
+      <li>oil</li><li>logic</li><li>kill</li><li>hum</li><li>track</li>
+      <li>drill</li><li>silicon</li><li>assembly</li><li>silent</li><li>command</li>
+      <li>laser</li><li>chip</li><li>shield</li><li>compute</li><li>ship</li>
+    </matchKeywords>
+    
+    <leadInstruments>
+      <li>Hydraulic Whistle</li>
+      <li>Grinding Gear Synth</li>
+    </leadInstruments>
+    <harmonyInstruments>
+      <li>Siren Oscillator</li>
+      <li>Electric Arc Harp</li>
+    </harmonyInstruments>
+    <percussionInstruments>
+      <li>Anvil Strikes</li>
+      <li>Pneumatic Press Kick</li>
+    </percussionInstruments>
+    <padInstruments>
+      <li>Generator Hum</li>
+      <li>Cooling Fan Drone</li>
+    </padInstruments>
+    <bassInstruments>
+      <li>Heavy Diesel Bass</li>
+      <li>Sub-sonic Engine Rumble</li>
+    </bassInstruments>
+  </RimMusic.Data.MusicStyleDef>
+
+</Defs>

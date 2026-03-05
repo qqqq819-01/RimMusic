@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RimMusic_AI_MaxWordsWarning>WARNING: High word counts may cause API generation failures. Keep below 60 for English.</RimMusic_AI_MaxWordsWarning>
+
+    <RimMusic_GenesisComplete>[System] Genesis Protocol Complete: Global faction culture matrix initialized.</RimMusic_GenesisComplete>
+    <RimMusic_Error_CircuitTripped>[API Tripped] Connection severed to protect resources. Check API key or network.</RimMusic_Error_CircuitTripped>
+    <RimMusic_ArmoryLoaded>[Ready] Armory located {0} combat tracks.</RimMusic_ArmoryLoaded>
+    <RimMusic_TrackPlaying>[System] Orbital Audio Online: {0}</RimMusic_TrackPlaying>
+    <RimMusic_EngineDisabled>[RimMusic] Tactical Audio Engine is offline. Cannot execute airdrop.</RimMusic_EngineDisabled>
+    <RimMusic_Error_ApiKeyEmpty>[System] API Key missing! Please configure the 302.ai Token in Mod Settings.</RimMusic_Error_ApiKeyEmpty>
+    <RimMusic_Error_NodeLost>[System] Audio node connection lost! Check the red error log for details.</RimMusic_Error_NodeLost>
+    <RimMusic_Msg_ResetDone>[System] Tactical panel reset to v0.1.0 Beta default configuration.</RimMusic_Msg_ResetDone>
+
+    <RimMusic_Ready>Standby</RimMusic_Ready>
+    <RimMusic_HUD_Title>RimMusic Tactical System</RimMusic_HUD_Title>
+    <RimMusic_HUD_State>Camera: {0}</RimMusic_HUD_State>
+    <RimMusic_HUD_Focus>Focus: {0}</RimMusic_HUD_Focus>
+    <RimMusic_HUD_Activity>Action: {0}</RimMusic_HUD_Activity>
+    <RimMusic_Warning_CircuitTripped>[ WARNING: Text AI Core Tripped ]</RimMusic_Warning_CircuitTripped>
+    
+    <RimMusic_MenuLabel>≡</RimMusic_MenuLabel>
+    <RimMusic_Option_Settings>Tactical Command (Mod Settings)</RimMusic_Option_Settings>
+    <RimMusic_Option_Mixer>Culture Mixer (DAW)</RimMusic_Option_Mixer>
+
+    <RimMusic_HUD_HotkeyHint>Tip: Press [Ctrl + M] in-game to call the Tactical Audio HUD at any time.</RimMusic_HUD_HotkeyHint>
+    <RimMusic_HUD_OpenManual>[Open] Launch HUD Panel</RimMusic_HUD_OpenManual>
+
+    <RimMusic_Btn_PredictOnly>Predict Only</RimMusic_Btn_PredictOnly>
+    <RimMusic_Btn_Copy>Copy</RimMusic_Btn_Copy>
+    <RimMusic_Btn_CallAudio>[Execute] Call Audio [Alt+M]</RimMusic_Btn_CallAudio>
+    
+    <RimMusic_Msg_Copied>Copied to clipboard!</RimMusic_Msg_Copied>
+    <RimMusic_Msg_Requesting>[System] Clearance granted! Submitting request to 302.ai...</RimMusic_Msg_Requesting>
+    
+    <RimMusic_Status_Predicting>Predicting...</RimMusic_Status_Predicting>
+    <RimMusic_Status_Generated>Generated</RimMusic_Status_Generated>
+    <RimMusic_Status_Sent>Sent Successfully</RimMusic_Status_Sent>
+    <RimMusic_Status_Failed>Generation Failed</RimMusic_Status_Failed>
+    <RimMusic_Status_Disabled>(Offline)</RimMusic_Status_Disabled>
+    <RimMusic_Status_AirdropPending>[Executing] Awaiting airdrop...</RimMusic_Status_AirdropPending>
+
+    <RimMusic_BGStatus_Syncing>[System syncing with audio nodes...]</RimMusic_BGStatus_Syncing>
+    <RimMusic_BGStatus_Idle>[Background Inference: {0}]</RimMusic_BGStatus_Idle>
+    <RimMusic_TrackLabel>♪ {0}</RimMusic_TrackLabel>
+
+    <RimMusic_Mixer_Title>[ DAW ] Tactical DAW Mixer v0.1.0 Beta</RimMusic_Mixer_Title>
+    <RimMusic_Resolving>Resolving...</RimMusic_Resolving>
+    <RimMusic_Prefix_Player>[Player] </RimMusic_Prefix_Player>
+    <RimMusic_Prefix_Culture>[Culture] </RimMusic_Prefix_Culture>
+    <RimMusic_Prefix_Faction>[Faction] </RimMusic_Prefix_Faction>
+    <RimMusic_Prefix_Protagonist>[Protag] </RimMusic_Prefix_Protagonist>
+    <RimMusic_Prefix_Chosen>[Chosen] </RimMusic_Prefix_Chosen>
+    <RimMusic_UnknownPawn>Unknown Wanderer</RimMusic_UnknownPawn>
+
+    <RimMusic_Mixer_PurgeMemory>[WARNING] Purge Global Memory</RimMusic_Mixer_PurgeMemory>
+    <RimMusic_Mixer_PurgeConfirm>Erase all locked ensemble profiles in this world? Are you sure?</RimMusic_Mixer_PurgeConfirm>
+    <RimMusic_Mixer_PurgeDone>Global audio memory purged.</RimMusic_Mixer_PurgeDone>
+    <RimMusic_Mixer_Rescan>[Scan] Rescan Global Map</RimMusic_Mixer_Rescan>
+    <RimMusic_Mixer_RescanDone>Global factions/cultures rescanned and patched!</RimMusic_Mixer_RescanDone>
+    <RimMusic_Mixer_ResetCircuit>[Tripped] API Offline (Click to Reset)</RimMusic_Mixer_ResetCircuit>
+    <RimMusic_Mixer_BatchOptimize>[Auto] Batch Optimization (Reroll Low Scores)</RimMusic_Mixer_BatchOptimize>
+    <RimMusic_Mixer_OptimizeStubborn>Optimization complete! {0} cultures reached retry limit.</RimMusic_Mixer_OptimizeStubborn>
+    <RimMusic_Mixer_OptimizeNoTarget>No low-score cultures found. All sectors optimal!</RimMusic_Mixer_OptimizeNoTarget>
+    <RimMusic_Mixer_OptimizeProcessing>Destroyed {0} low-quality caches. AI is running emergency inference!</RimMusic_Mixer_OptimizeProcessing>
+    <RimMusic_Mixer_ScanColonists>[Scan] Register Local Colonists</RimMusic_Mixer_ScanColonists>
+    <RimMusic_Mixer_NoColonistFound>No living colonists found</RimMusic_Mixer_NoColonistFound>
+    <RimMusic_Mixer_NoData>No data discovered in this category...</RimMusic_Mixer_NoData>
+    
+    <RimMusic_Tab_Culture>Ideology</RimMusic_Tab_Culture>
+    <RimMusic_Tab_RaceFaction>Race/Faction</RimMusic_Tab_RaceFaction>
+    <RimMusic_Tab_Protagonist>Protagonists</RimMusic_Tab_Protagonist>
+
+    <RimMusic_Score_Privilege>[Privilege] </RimMusic_Score_Privilege>
+    <RimMusic_Score_Custom>[Custom] </RimMusic_Score_Custom>
+    <RimMusic_Score_Exclusive>[Exclusive] </RimMusic_Score_Exclusive>
+    <RimMusic_Score_Polling>[Polling...] </RimMusic_Score_Polling>
+    <RimMusic_Score_Locked>[Locked] </RimMusic_Score_Locked>
+    <RimMusic_Score_Value>[Score {0}] </RimMusic_Score_Value>
+    <RimMusic_Score_Shortfall>[Missing {0}/{1}] </RimMusic_Score_Shortfall>
+
+    <RimMusic_Mixer_SelectPrompt>Please select an entry on the left to inspect its ensemble...</RimMusic_Mixer_SelectPrompt>
+    <RimMusic_Mixer_Status_Polling>[INFO] LLM is processing inference. Please wait...</RimMusic_Mixer_Status_Polling>
+    <RimMusic_Mixer_StyleBase>Base Cultural Style</RimMusic_Mixer_StyleBase>
+    <RimMusic_Mixer_State_Manual>Status: [Player Override] (Immune to reroll)</RimMusic_Mixer_State_Manual>
+    <RimMusic_Mixer_State_Privilege>Status: [External Mod Override] (Privileged protection)</RimMusic_Mixer_State_Privilege>
+    <RimMusic_Mixer_State_AI>Status: Raw AI Generation (Score {0})</RimMusic_Mixer_State_AI>
+    <RimMusic_Mixer_CountWarning>[!] WARNING: Current instrument count ({0}) is below the global target. Generating with available data only.</RimMusic_Mixer_CountWarning>
+
+    <RimMusic_Source_Ideo>Ideology &amp; Culture</RimMusic_Source_Ideo>
+    <RimMusic_Source_Race>Race &amp; Faction</RimMusic_Source_Race>
+    <RimMusic_Source_Exclusive>Exclusive Culture ({0})</RimMusic_Source_Exclusive>
+    <RimMusic_Source_Shared>Shared Ideology</RimMusic_Source_Shared>
+    <RimMusic_Source_Colony>Independent Faith (Colony Only)</RimMusic_Source_Colony>
+    <RimMusic_Source_Faction>Fixed Faction ({0})</RimMusic_Source_Faction>
+    <RimMusic_UniversalEra>Universal Era</RimMusic_UniversalEra>
+    <RimMusic_Mixer_Class>Category: {0}</RimMusic_Mixer_Class>
+    <RimMusic_Mixer_Era>Era: {0}</RimMusic_Mixer_Era>
+    <RimMusic_Mixer_UsageHint>Click [Mute] to disable an instrument, or type directly to override it.</RimMusic_Mixer_UsageHint>
+
+    <RimMusic_Mute>[Mute]</RimMusic_Mute>
+    <RimMusic_Enable>[Enable]</RimMusic_Enable>
+    <RimMusic_EmptyInst>[ Empty Slot ]</RimMusic_EmptyInst>
+    <RimMusic_Restore>[Reset]</RimMusic_Restore>
+    <RimMusic_Remove>[x]Remove</RimMusic_Remove>
+    
+    <RimMusic_Role_0>Lead Melody</RimMusic_Role_0>
+    <RimMusic_Role_1>Harmony</RimMusic_Role_1>
+    <RimMusic_Role_2>Percussion</RimMusic_Role_2>
+    <RimMusic_Role_3>Ambient Pad</RimMusic_Role_3>
+    <RimMusic_Role_4>Bass Root</RimMusic_Role_4>
+    <RimMusic_Role_Generic>Layer {0}</RimMusic_Role_Generic>
+
+    <RimMusic_Mixer_ExtraRack>[+] Extra Instrument Rack</RimMusic_Mixer_ExtraRack>
+    <RimMusic_ExtraIndex>[Extra {0}]</RimMusic_ExtraIndex>
+    <RimMusic_AddExtra>[+] Add Extra Instrument</RimMusic_AddExtra>
+
+    <RimMusic_Mixer_RestoreHardcoded>[Restore] Clear player modifications and restore original Mod author presets.</RimMusic_Mixer_RestoreHardcoded>
+    <RimMusic_Mixer_RestoreDone>Custom data reset. Original author presets restored!</RimMusic_Mixer_RestoreDone>
+    <RimMusic_Mixer_RejectOracle>[Reject] Reject Oracle (Force AI Reroll)</RimMusic_Mixer_RejectOracle>
+    <RimMusic_Mixer_RejectConfirm>Destroy the current AI cache for this culture (including custom edits) and force a reroll? Are you sure?</RimMusic_Mixer_RejectConfirm>
+    <RimMusic_Mixer_RejectDone>Cache destroyed. AI is inferring a new profile!</RimMusic_Mixer_RejectDone>
+    <RimMusic_Mixer_ClearMask>[Reset] Tear off Player Mask (Restore base AI data)</RimMusic_Mixer_ClearMask>
+    <RimMusic_Mixer_MaskCleared>Custom mask removed!</RimMusic_Mixer_MaskCleared>
+    <RimMusic_Mixer_Forget>[x] Forget this profile (Reassign next time)</RimMusic_Mixer_Forget>
+    <RimMusic_Mixer_DeleteConfirm>Are you sure you want to forget this profile? Instruments will be reassigned upon next generation.</RimMusic_Mixer_DeleteConfirm>
+    <RimMusic_Mixer_DeleteDone>Exclusive profile temporarily forgotten.</RimMusic_Mixer_DeleteDone>
+
+    <RimMusic_Protagonist_Title>[Protagonist] Absolute Privilege Canvas</RimMusic_Protagonist_Title>
+    <RimMusic_Protagonist_Chosen>Chosen One (External Mod Hook)</RimMusic_Protagonist_Chosen>
+    <RimMusic_Protagonist_Manual>Designated Protagonist (Player Pick)</RimMusic_Protagonist_Manual>
+    <RimMusic_Protagonist_Source>Source: {0} | Status: Absolute Override</RimMusic_Protagonist_Source>
+    <RimMusic_Protagonist_Hint1>This is a pure blank canvas. The system will bypass ALL race, faction, and culture rules.</RimMusic_Protagonist_Hint1>
+    <RimMusic_Protagonist_Hint2>Feel free to input specific instruments, synths, or emotional adjectives.</RimMusic_Protagonist_Hint2>
+    <RimMusic_Protagonist_Empty> (No instruments configured. Character background will default to minimal ambient noise.)</RimMusic_Protagonist_Empty>
+    <RimMusic_Slot>Inst {0}</RimMusic_Slot>
+    <RimMusic_AddSlot>[+] Add Instrument Slot</RimMusic_AddSlot>
+    <RimMusic_Protagonist_Revoke>[x] Revoke Privilege (Remove from registry)</RimMusic_Protagonist_Revoke>
+
+    <RimMusic_TerminalTitle>&lt;b&gt;&lt;color=#FFDD44&gt;RimMusic Terminal v0.1.0 Beta&lt;/color&gt;&lt;/b&gt;</RimMusic_TerminalTitle>
+    <RimMusic_Tab_Instructions>Instruction Matrix</RimMusic_Tab_Instructions>
+    <RimMusic_Tab_Focus>Focus Logic</RimMusic_Tab_Focus>
+    <RimMusic_Tab_Culture>Cultural Setup</RimMusic_Tab_Culture>
+    <RimMusic_Tab_Integrations>Integrations</RimMusic_Tab_Integrations>
+    <RimMusic_Tab_Engine>[Live] Audio Engine</RimMusic_Tab_Engine>
+    <RimMusic_Tab_UI>UI &amp; Debug</RimMusic_Tab_UI>
+    
+    <RimMusic_ForceChinese>Force Chinese Output</RimMusic_ForceChinese>
+    <RimMusic_ForceChinese_Tip>Warning: Forcing Chinese output may reduce audio generation accuracy and fidelity.</RimMusic_ForceChinese_Tip>
+    <RimMusic_ResetToDefault>Restore Default Settings</RimMusic_ResetToDefault>
+
+    <RimMusic_Engine_Title>&lt;b&gt;&lt;size=16&gt;&lt;color=#FFDD44&gt;Cloud Audio Engine (302.ai API)&lt;/color&gt;&lt;/size&gt;&lt;/b&gt;</RimMusic_Engine_Title>
+    <RimMusic_Engine_Hint1>&lt;i&gt;Powered by high-fidelity Suno models. Each generation consumes platform credits and outputs 2 variants.&lt;/i&gt;</RimMusic_Engine_Hint1>
+    <RimMusic_Engine_Hint2>&lt;i&gt;For safety, music is NEVER generated automatically. You must call it manually via the HUD.&lt;/i&gt;</RimMusic_Engine_Hint2>
+    <RimMusic_Engine_Toggle>&lt;b&gt;[ ENABLE ] Activate Live Audio Generation&lt;/b&gt;</RimMusic_Engine_Toggle>
+    <RimMusic_Engine_AuthTitle>&lt;b&gt;API Node Authentication&lt;/b&gt;</RimMusic_Engine_AuthTitle>
+    <RimMusic_Engine_Token_Tip>Your 302.ai API Key (usually starts with sk-)</RimMusic_Engine_Token_Tip>
+    <RimMusic_Engine_Model_Tip>Supported Suno model. Default is chirp-v5-0.</RimMusic_Engine_Model_Tip>
+    <RimMusic_Engine_Instrumental>Force AI to generate [Instrumental Only]</RimMusic_Engine_Instrumental>
+    <RimMusic_Engine_Instrumental_Tip>When enabled, music will have no lyrics, fitting better as BGM.</RimMusic_Engine_Instrumental_Tip>
+    
+    <RimMusic_Jukebox_Title>&lt;b&gt;Tactical Jukebox (Walkman)&lt;/b&gt;</RimMusic_Jukebox_Title>
+    <RimMusic_Jukebox_AutoNext>Enable Auto-Play Next Track</RimMusic_Jukebox_AutoNext>
+    <RimMusic_Jukebox_AutoNext_Tip>If disabled, music mutes after one track. If enabled, loops through your generated armory.</RimMusic_Jukebox_AutoNext_Tip>
+    <RimMusic_Armory_Title>&lt;b&gt;Local Audio Armory (MP3 Storage)&lt;/b&gt;</RimMusic_Armory_Title>
+    <RimMusic_Armory_Path>Save Path:</RimMusic_Armory_Path>
+    <RimMusic_Armory_OpenFolder>[Open] Audio Save Folder</RimMusic_Armory_OpenFolder>
+
+    <RimMusic_Focus_Title>&lt;b&gt;&lt;size=14&gt;Gaze &amp; Focal Control&lt;/size&gt;&lt;/b&gt;</RimMusic_Focus_Title>
+    <RimMusic_Focus_Radius>Hover Detection Radius: {0} Cells</RimMusic_Focus_Radius>
+    <RimMusic_Focus_Latency>Focus Detach Latency: {0} Sec</RimMusic_Focus_Latency>
+    <RimMusic_Macro_Title>&lt;b&gt;&lt;size=14&gt;Macro/Micro State Machine&lt;/size&gt;&lt;/b&gt;</RimMusic_Macro_Title>
+    <RimMusic_Macro_Delay>Macro View Entry Delay: {0} Sec</RimMusic_Macro_Delay>
+    <RimMusic_Macro_Threshold>Macro Zoom Altitude Threshold: {0}</RimMusic_Macro_Threshold>
+    <RimMusic_Macro_Exit>Macro View Exit Buffer: {0} Sec</RimMusic_Macro_Exit>
+    <RimMusic_Macro_Memory>Tactical Event Memory Retension: {0} Ticks</RimMusic_Macro_Memory>
+    
+    <RimMusic_Radar_Title>&lt;b&gt;&lt;size=14&gt;God's Eye Environment Radar&lt;/size&gt;&lt;/b&gt;</RimMusic_Radar_Title>
+    <RimMusic_Radar_Toggle>Enable [God's Eye] Dynamic Radar</RimMusic_Radar_Toggle>
+    <RimMusic_Radar_Radius>Tactical Stare Radius: {0} Cells</RimMusic_Radar_Radius>
+    <RimMusic_Radar_MaxRadius>Idle Pan Radius: {0} Cells</RimMusic_Radar_MaxRadius>
+    <RimMusic_Radar_Expand>Idle Expansion Time: {0} Sec</RimMusic_Radar_Expand>
+    <RimMusic_Radar_FastThreshold>High-Speed Cutoff Threshold: {0} C/s</RimMusic_Radar_FastThreshold>
+    <RimMusic_Radar_IdleThreshold>Idle Tolerance: {0} C/s</RimMusic_Radar_IdleThreshold>
+    <RimMusic_Radar_Tether>Focus Signal Break Distance: {0} Cells</RimMusic_Radar_Tether>
+    <RimMusic_Radar_Draw>Draw Radar Helper Radius (Dev)</RimMusic_Radar_Draw>
+
+    <RimMusic_Culture_EngineTitle>&lt;b&gt;&lt;size=14&gt;AI Inference Engine&lt;/size&gt;&lt;/b&gt;</RimMusic_Culture_EngineTitle>
+    <RimMusic_Culture_MinScore>Style Match Pass Score: {0}</RimMusic_Culture_MinScore>
+    <RimMusic_Culture_InstCount>Target Ensemble Size: {0} Insts</RimMusic_Culture_InstCount>
+    <RimMusic_Culture_KeyCount>Keyword Generation Volume: {0}</RimMusic_Culture_KeyCount>
+    <RimMusic_Culture_Realistic>Force realistic instruments</RimMusic_Culture_Realistic>
+    <RimMusic_Culture_OpenMixer>Open Culture Mixer</RimMusic_Culture_OpenMixer>
+    <RimMusic_Culture_CleanCache>Clean orphaned caches</RimMusic_Culture_CleanCache>
+    <RimMusic_Error_NoActiveSave>Please load into an active save game first!</RimMusic_Error_NoActiveSave>
+
+    <RimMusic_Fusion_Title>&lt;b&gt;&lt;size=14&gt;Dynamic Fusion Engine&lt;/size&gt;&lt;/b&gt;</RimMusic_Fusion_Title>
+    <RimMusic_Fusion_Toggle>Enable multi-culture &amp; raid fusion</RimMusic_Fusion_Toggle>
+    <RimMusic_Fusion_Minority>Minority Assimilation Line: &lt; {0} Ignored</RimMusic_Fusion_Minority>
+    <RimMusic_Fusion_Steal>Raid Steal Threshold: {0}</RimMusic_Fusion_Steal>
+    <RimMusic_Fusion_Dominate>Doom Override Threshold: {0}</RimMusic_Fusion_Dominate>
+
+    <RimMusic_LLM_Title>&lt;b&gt;&lt;size=16&gt;&lt;color=#FFDD44&gt;Text Inference Engine (LLM Brain)&lt;/color&gt;&lt;/size&gt;&lt;/b&gt;</RimMusic_LLM_Title>
+    <RimMusic_LLM_Hint>&lt;i&gt;Used to generate musical prompts. You can hook into RimTalk's API, or configure a standalone deep-think API here.&lt;/i&gt;</RimMusic_LLM_Hint>
+    <RimMusic_LLM_UseRimTalk>&lt;b&gt;[ Sync ] Borrow API Key &amp; Model from RimTalk&lt;/b&gt;</RimMusic_LLM_UseRimTalk>
+    <RimMusic_LLM_CustomTitle>&lt;b&gt;Standalone API Node (OpenAI Standard)&lt;/b&gt;</RimMusic_LLM_CustomTitle>
+    <RimMusic_LLM_Url_Tip>e.g. https://api.siliconflow.cn or https://api.openai.com</RimMusic_LLM_Url_Tip>
+    <RimMusic_LLM_Model_Tip>Model target (e.g. gpt-4o, deepseek-chat)</RimMusic_LLM_Model_Tip>
+    <RimMusic_LLM_IntegrationActive>&lt;i&gt;(Sync Active. Prompt inference is delegated to the RimTalk Mod module.)&lt;/i&gt;</RimMusic_LLM_IntegrationActive>
+
+    <RimMusic_Extraction_Title>&lt;b&gt;&lt;size=14&gt;Narrative Extraction Logic&lt;/size&gt;&lt;/b&gt;</RimMusic_Extraction_Title>
+    <RimMusic_Extraction_Lines>Dialogue History Lines: {0}</RimMusic_Extraction_Lines>
+    <RimMusic_API_OverrideTitle>&lt;b&gt;&lt;size=14&gt;[API] External Race/Faction Privileges&lt;/size&gt;&lt;/b&gt;</RimMusic_API_OverrideTitle>
+    <RimMusic_API_RacePriority>Prioritize Race/Faction hardcoded music</RimMusic_API_RacePriority>
+    <RimMusic_API_RaceFusion>Allow Race-exclusive instruments in macro fusion</RimMusic_API_RaceFusion>
+
+    <RimMusic_HUD_SettingsTitle>&lt;b&gt;&lt;size=14&gt;HUD Overlay&lt;/size&gt;&lt;/b&gt;</RimMusic_HUD_SettingsTitle>
+    <RimMusic_HUD_Alpha>HUD Transparency: {0}</RimMusic_HUD_Alpha>
+    <RimMusic_AI_TruncateTitle>&lt;b&gt;&lt;size=14&gt;AI Text Truncation&lt;/size&gt;&lt;/b&gt;</RimMusic_AI_TruncateTitle>
+    <RimMusic_AI_MaxWords>Max Output Words: {0}</RimMusic_AI_MaxWords>
+    <RimMusic_Dev_Title>&lt;b&gt;&lt;size=14&gt;Developer Options&lt;/size&gt;&lt;/b&gt;</RimMusic_Dev_Title>
+    <RimMusic_Dev_DebugMode>Enable Developer Inspector (Debug Mode)</RimMusic_Dev_DebugMode>
+
+    <RimMusic_AwaitingData>Waiting for data...</RimMusic_AwaitingData>
+    <RimMusic_ResultPrompt>Click Generate to see result...</RimMusic_ResultPrompt>
+    <RimMusic_Inspector_AutoRefresh>Auto-Refresh</RimMusic_Inspector_AutoRefresh>
+    <RimMusic_Inspector_Generating>Generating...</RimMusic_Inspector_Generating>
+    <RimMusic_Inspector_TestGen>Test Generate</RimMusic_Inspector_TestGen>
+    <RimMusic_Inspector_PreviewHeader>&lt; Prompt Preview &gt;</RimMusic_Inspector_PreviewHeader>
+    <RimMusic_Inspector_ResultHeader>&lt; AI Result &gt;</RimMusic_Inspector_ResultHeader>
+    <RimMusic_Inspector_Requesting>Requesting AI...</RimMusic_Inspector_Requesting>
+    <RimMusic_Inspector_PreviewFormat>=== State: {0} | Focus: {1} ===\n\n[Part 1: System]\n{2}\n\n[Part 2: User Context]\n{3}\n\n[Part 3: Mandatory Suffix]\n{4}</RimMusic_Inspector_PreviewFormat>
+
+    <RimMusic_PTab_System>System Directive</RimMusic_PTab_System>
+    <RimMusic_PTab_User>User Context</RimMusic_PTab_User>
+    <RimMusic_PTab_Mandatory>Mandatory Suffix</RimMusic_PTab_Mandatory>
+    <RimMusic_PTab_System_Header>1. System Persona (System)</RimMusic_PTab_System_Header>
+    <RimMusic_PTab_User_Header>2. Dynamic Data (User Context)</RimMusic_PTab_User_Header>
+    <RimMusic_PTab_Mandatory_Header>3. Formatting Rules (Mandatory)</RimMusic_PTab_Mandatory_Header>
+
+    <RimMusic_Prompt_SystemName>AI Persona (System)</RimMusic_Prompt_SystemName>
+    <RimMusic_Prompt_UserName>Full Telemetry (User)</RimMusic_Prompt_UserName>
+    <RimMusic_Prompt_MandatoryName>Output Constraints (Mandatory)</RimMusic_Prompt_MandatoryName>
+
+    <RimMusic_Var_Title>&lt;b&gt;Variable Reference (Click to Insert)&lt;/b&gt;</RimMusic_Var_Title>
+    <RimMusic_Var_Cat_Macro>Macro Variables</RimMusic_Var_Cat_Macro>
+    <RimMusic_Var_Full_Name>Omni Payload</RimMusic_Var_Full_Name>
+    <RimMusic_Var_Full_Tip>Character profile/gear/environment combo</RimMusic_Var_Full_Tip>
+    <RimMusic_Var_Event_Name>Tactical Events</RimMusic_Var_Event_Name>
+    <RimMusic_Var_Event_Tip>Dynamic radar + recent combat logs</RimMusic_Var_Event_Tip>
+    <RimMusic_Var_Radar_Name>God's Eye Radar</RimMusic_Var_Radar_Name>
+    <RimMusic_Var_Radar_Tip>Physical scan of current cursor focal point</RimMusic_Var_Radar_Tip>
+    <RimMusic_Var_Cat_Culture>Ethnomusicology</RimMusic_Var_Cat_Culture>
+    <RimMusic_Var_Inst_Name>Cross-Cultural Ensemble</RimMusic_Var_Inst_Name>
+    <RimMusic_Var_Inst_Tip>Blended instruments based on local factions</RimMusic_Var_Inst_Tip>
+    <RimMusic_Var_Cat_Env>Environment &amp; Engine</RimMusic_Var_Cat_Env>
+    <RimMusic_Var_State_Name>Camera Mode</RimMusic_Var_State_Name>
+    <RimMusic_Var_State_Tip>Combat / Micro / Macro</RimMusic_Var_State_Tip>
+    <RimMusic_Var_Speed_Name>Time Speed</RimMusic_Var_Speed_Name>
+    <RimMusic_Var_Speed_Tip>Paused / 1x / 2x...</RimMusic_Var_Speed_Tip>
+    <RimMusic_Var_Season_Name>Season</RimMusic_Var_Season_Name>
+    <RimMusic_Var_Season_Tip>Spring / Summer...</RimMusic_Var_Season_Tip>
+    <RimMusic_Var_Weather_Name>Weather Vibe</RimMusic_Var_Weather_Name>
+    <RimMusic_Var_Weather_Tip>Clear, Windy, Eclipse...</RimMusic_Var_Weather_Tip>
+    <RimMusic_Var_Danger_Name>Threat Level</RimMusic_Var_Danger_Name>
+    <RimMusic_Var_Danger_Tip>Safe / Danger</RimMusic_Var_Danger_Tip>
+    <RimMusic_Var_Cat_Micro>Focal Protagonist (Micro)</RimMusic_Var_Cat_Micro>
+    <RimMusic_Var_Focus_Name>Entity Name</RimMusic_Var_Focus_Name>
+    <RimMusic_Var_Focus_Tip>Name of observed pawn/enemy</RimMusic_Var_Focus_Tip>
+    <RimMusic_Var_Act_Name>Current Action</RimMusic_Var_Act_Name>
+    <RimMusic_Var_Act_Tip>What they are doing right now</RimMusic_Var_Act_Tip>
+    <RimMusic_Var_Mood_Name>Mood Level</RimMusic_Var_Mood_Name>
+    <RimMusic_Var_Mood_Tip>Current psychological percentage</RimMusic_Var_Mood_Tip>
+    <RimMusic_Var_Thought_Name>Core Thoughts</RimMusic_Var_Thought_Name>
+    <RimMusic_Var_Thought_Tip>Top 3 strongest current memories</RimMusic_Var_Thought_Tip>
+
+</LanguageData>
