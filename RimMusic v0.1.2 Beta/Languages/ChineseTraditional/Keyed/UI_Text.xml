@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RimMusic_AI_MaxWordsWarning>警告：字數過長可能導致雲端音訊生成(API)報錯失敗。英文建議不超過60。</RimMusic_AI_MaxWordsWarning>
+
+    <RimMusic_GenesisComplete>[系統] 創世協議執行完畢：全球派系文化矩陣已初始化。</RimMusic_GenesisComplete>
+    <RimMusic_Error_CircuitTripped>[API 核心已熔斷] 系統切斷了連線以保護資源。請檢查金鑰或網路狀態。</RimMusic_Error_CircuitTripped>
+    <RimMusic_ArmoryLoaded>[已就緒] 彈藥庫找到 {0} 首戰歌</RimMusic_ArmoryLoaded>
+    <RimMusic_TrackPlaying>[系統] 天基戰歌奏響: {0}</RimMusic_TrackPlaying>
+    <RimMusic_EngineDisabled>[RimMusic] 戰術發聲引擎尚未開啟，無法執行空投指令。</RimMusic_EngineDisabled>
+    <RimMusic_Error_ApiKeyEmpty>[系統] API 金鑰為空！請先在 Mod 選項中配置 302.ai 的 Token。</RimMusic_Error_ApiKeyEmpty>
+    <RimMusic_Error_NodeLost>[系統] 音訊節點失去聯繫！詳情請查看紅字日誌。</RimMusic_Error_NodeLost>
+    <RimMusic_Msg_ResetDone>[系統] 戰術面板已重置為 v0.1.2 Beta 預設配置</RimMusic_Msg_ResetDone>
+
+    <RimMusic_Ready>準備就緒</RimMusic_Ready>
+    <RimMusic_HUD_Title>RimMusic 戰術系統</RimMusic_HUD_Title>
+    <RimMusic_HUD_State>鏡頭: {0}</RimMusic_HUD_State>
+    <RimMusic_HUD_Focus>焦點: {0}</RimMusic_HUD_Focus>
+    <RimMusic_HUD_Activity>動作: {0}</RimMusic_HUD_Activity>
+    <RimMusic_Warning_CircuitTripped>[ 警告：文本 AI 核心已熔斷 ]</RimMusic_Warning_CircuitTripped>
+    
+    <RimMusic_MenuLabel>≡</RimMusic_MenuLabel>
+    <RimMusic_Option_Settings>戰術指揮台 (Mod 選項)</RimMusic_Option_Settings>
+    <RimMusic_Option_Mixer>文明調音台 (Culture Mixer)</RimMusic_Option_Mixer>
+
+    <RimMusic_HUD_HotkeyHint>提示：您可以在遊戲中按下 [Ctrl + M] 隨時呼叫戰術發聲系統 (HUD懸浮窗)。</RimMusic_HUD_HotkeyHint>
+    <RimMusic_HUD_OpenManual>[打開] 手動呼出 HUD 面板</RimMusic_HUD_OpenManual>
+
+    <RimMusic_Btn_PredictOnly>僅推演</RimMusic_Btn_PredictOnly>
+    <RimMusic_Btn_Copy>複製</RimMusic_Btn_Copy>
+    <RimMusic_Btn_CallAudio>[實裝] 呼叫戰術配樂 [Alt+M]</RimMusic_Btn_CallAudio>
+    
+    <RimMusic_Msg_Copied>已複製！</RimMusic_Msg_Copied>
+    <RimMusic_Msg_Requesting>[系統] 權限通過！正在向 302.ai 提交生成請求...</RimMusic_Msg_Requesting>
+    
+    <RimMusic_Status_Predicting>推演中...</RimMusic_Status_Predicting>
+    <RimMusic_Status_Generated>已生成</RimMusic_Status_Generated>
+    <RimMusic_Status_Sent>發送成功</RimMusic_Status_Sent>
+    <RimMusic_Status_Failed>生成失敗</RimMusic_Status_Failed>
+    <RimMusic_Status_Disabled>(介面未開啟)</RimMusic_Status_Disabled>
+    <RimMusic_Status_AirdropPending>[執行中] 等待空投...</RimMusic_Status_AirdropPending>
+
+    <RimMusic_BGStatus_Syncing>[系統正在與音訊節點同步中...]</RimMusic_BGStatus_Syncing>
+    <RimMusic_BGStatus_Idle>[後台推演狀態: {0}]</RimMusic_BGStatus_Idle>
+    <RimMusic_TrackLabel>♪ {0}</RimMusic_TrackLabel>
+
+    <RimMusic_Mixer_Title>[ DAW ] 戰術調音台 (Tactical DAW Mixer v0.1.2 Beta)</RimMusic_Mixer_Title>
+    <RimMusic_Resolving>解析中...</RimMusic_Resolving>
+    <RimMusic_Prefix_Player>[玩家] </RimMusic_Prefix_Player>
+    <RimMusic_Prefix_Culture>[文化] </RimMusic_Prefix_Culture>
+    <RimMusic_Prefix_Faction>[派系] </RimMusic_Prefix_Faction>
+    <RimMusic_Prefix_Protagonist>[主角] </RimMusic_Prefix_Protagonist>
+    <RimMusic_Prefix_Chosen>[神選] </RimMusic_Prefix_Chosen>
+    <RimMusic_UnknownPawn>未知遊蕩者</RimMusic_UnknownPawn>
+
+    <RimMusic_Mixer_PurgeMemory>[警告] 抹除全球記憶</RimMusic_Mixer_PurgeMemory>
+    <RimMusic_Mixer_PurgeConfirm>清空世界上所有已鎖定的樂團編制。確定嗎？</RimMusic_Mixer_PurgeConfirm>
+    <RimMusic_Mixer_PurgeDone>全球音樂記憶已抹除。</RimMusic_Mixer_PurgeDone>
+    <RimMusic_Mixer_Rescan>[掃描] 重新掃描全圖</RimMusic_Mixer_Rescan>
+    <RimMusic_Mixer_RescanDone>已重新掃描並補全全球派系/文化！</RimMusic_Mixer_RescanDone>
+    <RimMusic_Mixer_ResetCircuit>[熔斷] API已斷開(點擊復位)</RimMusic_Mixer_ResetCircuit>
+    <RimMusic_Mixer_BatchOptimize>[自動] 一鍵洗練(重投低分)</RimMusic_Mixer_BatchOptimize>
+    <RimMusic_Mixer_OptimizeStubborn>洗練完畢！有 {0} 個文化已達重試上限。</RimMusic_Mixer_OptimizeStubborn>
+    <RimMusic_Mixer_OptimizeNoTarget>當前世界上沒有需要洗練的低分文化，全線及格！</RimMusic_Mixer_OptimizeNoTarget>
+    <RimMusic_Mixer_OptimizeProcessing>已銷毀 {0} 個劣質快取，AI 正在後台緊急推演！</RimMusic_Mixer_OptimizeProcessing>
+    <RimMusic_Mixer_ScanColonists>[掃描] 掃描並註冊本陣營殖民者</RimMusic_Mixer_ScanColonists>
+    <RimMusic_Mixer_NoColonistFound>沒有找到活著的殖民者</RimMusic_Mixer_NoColonistFound>
+    <RimMusic_Mixer_NoData>當前分類下尚未探明任何數據...</RimMusic_Mixer_NoData>
+    
+    <RimMusic_Tab_Culture>信仰文化</RimMusic_Tab_Culture>
+    <RimMusic_Tab_RaceFaction>種族/派系</RimMusic_Tab_RaceFaction>
+    <RimMusic_Tab_Protagonist>主角神選</RimMusic_Tab_Protagonist>
+
+    <RimMusic_Score_Privilege>[特權] </RimMusic_Score_Privilege>
+    <RimMusic_Score_Custom>[自訂] </RimMusic_Score_Custom>
+    <RimMusic_Score_Exclusive>[專屬] </RimMusic_Score_Exclusive>
+    <RimMusic_Score_Polling>[推演中] </RimMusic_Score_Polling>
+    <RimMusic_Score_Locked>[鎖定] </RimMusic_Score_Locked>
+    <RimMusic_Score_Value>[{0}分] </RimMusic_Score_Value>
+    <RimMusic_Score_Shortfall>[缺漏 {0}/{1}] </RimMusic_Score_Shortfall>
+
+    <RimMusic_Mixer_SelectPrompt>請在左側選擇一個條目以查看並修改其配器...</RimMusic_Mixer_SelectPrompt>
+    <RimMusic_Mixer_Status_Polling>[資訊] LLM 正在進行推演中，請稍候...</RimMusic_Mixer_Status_Polling>
+    <RimMusic_Mixer_StyleBase>當前文化風格底色</RimMusic_Mixer_StyleBase>
+    <RimMusic_Mixer_State_Manual>狀態: [玩家神權接管] (免疫洗練，絕對碾壓)</RimMusic_Mixer_State_Manual>
+    <RimMusic_Mixer_State_Privilege>狀態: [外部 Mod 專屬介面分配] (享有特權保護)</RimMusic_Mixer_State_Privilege>
+    <RimMusic_Mixer_State_AI>狀態: 原始 AI 生成 (得分 {0})</RimMusic_Mixer_State_AI>
+    <RimMusic_Mixer_CountWarning>[!] 警告：當前快取樂器數量 ({0}) 低於全域編制。系統將僅使用現有樂器。</RimMusic_Mixer_CountWarning>
+
+    <RimMusic_Source_Ideo>思想與文化</RimMusic_Source_Ideo>
+    <RimMusic_Source_Race>種族與派系</RimMusic_Source_Race>
+    <RimMusic_Source_Exclusive>專屬文化 ({0})</RimMusic_Source_Exclusive>
+    <RimMusic_Source_Shared>跨派系共通信仰</RimMusic_Source_Shared>
+    <RimMusic_Source_Colony>獨立信仰 (殖民地專屬)</RimMusic_Source_Colony>
+    <RimMusic_Source_Faction>固定派系 ({0})</RimMusic_Source_Faction>
+    <RimMusic_UniversalEra>泛用時代 (Universal)</RimMusic_UniversalEra>
+    <RimMusic_Mixer_Class>系統分類: {0}</RimMusic_Mixer_Class>
+    <RimMusic_Mixer_Era>時代: {0}</RimMusic_Mixer_Era>
+    <RimMusic_Mixer_UsageHint>點擊 [靜音] 開關遮蔽樂器，或在輸入框內直接覆寫想要的樂器名稱。</RimMusic_Mixer_UsageHint>
+
+    <RimMusic_Mute>[靜音]</RimMusic_Mute>
+    <RimMusic_Enable>[啟用]</RimMusic_Enable>
+    <RimMusic_EmptyInst>[ 留白 / 無樂器 ]</RimMusic_EmptyInst>
+    <RimMusic_Restore>[還原]</RimMusic_Restore>
+    <RimMusic_Remove>[x]移除</RimMusic_Remove>
+    
+    <RimMusic_Role_0>主旋律</RimMusic_Role_0>
+    <RimMusic_Role_1>和聲編織</RimMusic_Role_1>
+    <RimMusic_Role_2>節奏打擊</RimMusic_Role_2>
+    <RimMusic_Role_3>環境鋪底</RimMusic_Role_3>
+    <RimMusic_Role_4>低音根音</RimMusic_Role_4>
+    <RimMusic_Role_Generic>聲部 {0}</RimMusic_Role_Generic>
+
+    <RimMusic_Mixer_ExtraRack>[+] 拓展樂器機架 (Extra Instruments)</RimMusic_Mixer_ExtraRack>
+    <RimMusic_ExtraIndex>[拓展 {0}]</RimMusic_ExtraIndex>
+    <RimMusic_AddExtra>[+] 添加拓展樂器</RimMusic_AddExtra>
+
+    <RimMusic_Mixer_RestoreHardcoded>[復原] 該條目由外部 Mod 寫死。點擊清空玩家修改，復原其作者預設</RimMusic_Mixer_RestoreHardcoded>
+    <RimMusic_Mixer_RestoreDone>已重置該專屬條目的自訂數據，回歸原始作者設定！</RimMusic_Mixer_RestoreDone>
+    <RimMusic_Mixer_RejectOracle>重新推演</RimMusic_Mixer_RejectOracle>
+    <RimMusic_Mixer_RejectConfirm>徹底刪除該文化當前的 AI 快取(包含自訂)，並重新推演！確定嗎？</RimMusic_Mixer_RejectConfirm>
+    <RimMusic_Mixer_RejectDone>舊快取已銷毀，AI 正在後台緊急推演新配方！</RimMusic_Mixer_RejectDone>
+    <RimMusic_Mixer_ClearMask>[重置] 撕毀玩家蒙版 (清空自訂並恢復底層數據)</RimMusic_Mixer_ClearMask>
+    <RimMusic_Mixer_MaskCleared>已撕毀自訂蒙版！</RimMusic_Mixer_MaskCleared>
+    <RimMusic_Mixer_Forget>[x] 遺忘該配置 (下次生成重新分配)</RimMusic_Mixer_Forget>
+    <RimMusic_Mixer_DeleteConfirm>確定要遺忘這個配置嗎？(下次生成時將重新分配樂器。)</RimMusic_Mixer_DeleteConfirm>
+    <RimMusic_Mixer_DeleteDone>已暫時遺忘該專屬配置。</RimMusic_Mixer_DeleteDone>
+
+    <RimMusic_Protagonist_Title>[主角] 絕對特權調音台 (Protagonist Canvas)</RimMusic_Protagonist_Title>
+    <RimMusic_Protagonist_Chosen>神選者 (外部 Mod 介面註冊)</RimMusic_Protagonist_Chosen>
+    <RimMusic_Protagonist_Manual>指定主角 (玩家手動欽定)</RimMusic_Protagonist_Manual>
+    <RimMusic_Protagonist_Source>識別來源: {0} | 狀態: 絕對音軌接管</RimMusic_Protagonist_Source>
+    <RimMusic_Protagonist_Hint1>這是一片絕對純淨的空白畫布。系統將跳過所有的種族、派系和文化規則判定。</RimMusic_Protagonist_Hint1>
+    <RimMusic_Protagonist_Hint2>您可以隨意拋棄分類限制，直接輸入樂器、合成器名稱或情感修飾詞。</RimMusic_Protagonist_Hint2>
+    <RimMusic_Protagonist_Empty> (當前未配置任何樂器，角色專屬背景音將表現為極簡底噪)</RimMusic_Protagonist_Empty>
+    <RimMusic_Slot>樂器 {0}</RimMusic_Slot>
+    <RimMusic_AddSlot>[+] 添加樂器插槽</RimMusic_AddSlot>
+    <RimMusic_Protagonist_Revoke>[x] 剝奪該角色的專屬特權 (將其移出特權名冊)</RimMusic_Protagonist_Revoke>
+
+    <RimMusic_TerminalTitle>&lt;b&gt;&lt;color=#FFDD44&gt;RimMusic 終端 v0.1.2 Beta&lt;/color&gt;&lt;/b&gt;</RimMusic_TerminalTitle>
+    <RimMusic_Tab_Instructions>系統指令欄目</RimMusic_Tab_Instructions>
+    <RimMusic_Tab_Focus>焦點系統設置</RimMusic_Tab_Focus>
+    <RimMusic_Tab_Culture>文化樂器設置</RimMusic_Tab_Culture>
+    <RimMusic_Tab_Integrations>跨模組聯動</RimMusic_Tab_Integrations>
+    <RimMusic_Tab_Engine>[實裝] 實時音樂引擎</RimMusic_Tab_Engine>
+    <RimMusic_Tab_UI>預覽與小視窗</RimMusic_Tab_UI>
+    
+    <RimMusic_ForceChinese>強制全中文輸出</RimMusic_ForceChinese>
+    <RimMusic_ForceChinese_Tip>警告：開啟全中文輸出可能會降低 AI 音樂生成的精確度與音質。</RimMusic_ForceChinese_Tip>
+    <RimMusic_ResetToDefault>恢復預設設置</RimMusic_ResetToDefault>
+
+    <RimMusic_Engine_Title>&lt;b&gt;&lt;size=16&gt;&lt;color=#FFDD44&gt;雲端音樂介面 (302.ai API)&lt;/color&gt;&lt;/size&gt;&lt;/b&gt;</RimMusic_Engine_Title>
+    <RimMusic_Engine_Hint1>&lt;i&gt;採用極高音質的 Suno 模型。單次生成消耗平台餘額，產生 2 首變體配樂。&lt;/i&gt;</RimMusic_Engine_Hint1>
+    <RimMusic_Engine_Hint2>&lt;i&gt;基於安全考量，系統絕對不會自動生成音樂。請在 HUD 懸浮窗中手動呼叫。&lt;/i&gt;</RimMusic_Engine_Hint2>
+    <RimMusic_Engine_Toggle>&lt;b&gt;[ 啟動 ] 開啟實時音訊生成介面&lt;/b&gt;</RimMusic_Engine_Toggle>
+    <RimMusic_Engine_AuthTitle>&lt;b&gt;API 節點身份驗證&lt;/b&gt;</RimMusic_Engine_AuthTitle>
+    <RimMusic_Engine_Token_Tip>您在 302.ai 申請的 API Key (通常以 sk- 開頭)</RimMusic_Engine_Token_Tip>
+    <RimMusic_Engine_Model_Tip>請填寫 302 平台支援的模型版本。當前最新為 chirp-crow。</RimMusic_Engine_Model_Tip>
+    <RimMusic_Engine_Instrumental>強制要求 AI 生成 [純音樂 (Instrumental)]</RimMusic_Engine_Instrumental>
+    <RimMusic_Engine_Instrumental_Tip>開啟後音樂將沒有歌詞，更適合作為背景音樂。</RimMusic_Engine_Instrumental_Tip>
+    
+    <RimMusic_Jukebox_Title>&lt;b&gt;戰術點唱機 (Walkman) 設置&lt;/b&gt;</RimMusic_Jukebox_Title>
+    <RimMusic_Jukebox_AutoNext>開啟彈藥庫自動連播 (自動播放下一首)</RimMusic_Jukebox_AutoNext>
+    <RimMusic_Jukebox_AutoNext_Tip>關閉後，新生成的音樂只播放一首便會自動靜音。開啟後，系統會循環播放資料夾內所有積攢的戰歌。</RimMusic_Jukebox_AutoNext_Tip>
+    <RimMusic_Armory_Title>&lt;b&gt;本地音訊軍火庫 (MP3 下載位置)&lt;/b&gt;</RimMusic_Armory_Title>
+    <RimMusic_Armory_Path>保存路徑:</RimMusic_Armory_Path>
+    <RimMusic_Armory_OpenFolder>[打開] 音樂保存資料夾</RimMusic_Armory_OpenFolder>
+
+    <RimMusic_Focus_Title>&lt;b&gt;&lt;size=14&gt;視線與焦距控制&lt;/size&gt;&lt;/b&gt;</RimMusic_Focus_Title>
+    <RimMusic_Focus_Radius>懸停判定半徑: {0} 格</RimMusic_Focus_Radius>
+    <RimMusic_Focus_Latency>焦點脫離延遲/快取: {0} 秒</RimMusic_Focus_Latency>
+    <RimMusic_Macro_Title>&lt;b&gt;&lt;size=14&gt;宏觀/微觀狀態機&lt;/size&gt;&lt;/b&gt;</RimMusic_Macro_Title>
+    <RimMusic_Macro_Delay>進入看海模式判定延遲: {0} 秒</RimMusic_Macro_Delay>
+    <RimMusic_Macro_Threshold>看海鏡頭高度閾值: {0}</RimMusic_Macro_Threshold>
+    <RimMusic_Macro_Exit>退出看海模式緩衝: {0} 秒</RimMusic_Macro_Exit>
+    <RimMusic_Macro_Memory>戰術事件記憶存留: {0} 刻</RimMusic_Macro_Memory>
+    
+    <RimMusic_Radar_Title>&lt;b&gt;&lt;size=14&gt;上帝之眼 環境感知雷達&lt;/size&gt;&lt;/b&gt;</RimMusic_Radar_Title>
+    <RimMusic_Radar_Toggle>啟用 [上帝之眼] 環境動態雷達</RimMusic_Radar_Toggle>
+    <RimMusic_Radar_Radius>戰術凝視半徑: {0} 格</RimMusic_Radar_Radius>
+    <RimMusic_Radar_MaxRadius>全景發呆半徑: {0} 格</RimMusic_Radar_MaxRadius>
+    <RimMusic_Radar_Expand>發呆展開所需時間: {0} 秒</RimMusic_Radar_Expand>
+    <RimMusic_Radar_FastThreshold>高速熔斷閾值: {0} 格/秒</RimMusic_Radar_FastThreshold>
+    <RimMusic_Radar_IdleThreshold>靜止判定容差: {0} 格/秒</RimMusic_Radar_IdleThreshold>
+    <RimMusic_Radar_Tether>焦點信號斷裂距離: {0} 格</RimMusic_Radar_Tether>
+    <RimMusic_Radar_Draw>顯示雷達範圍輔助線</RimMusic_Radar_Draw>
+
+    <RimMusic_Culture_EngineTitle>&lt;b&gt;&lt;size=14&gt;AI 智能推演引擎&lt;/size&gt;&lt;/b&gt;</RimMusic_Culture_EngineTitle>
+    <RimMusic_Culture_MinScore>風格匹配及格線: {0} 分</RimMusic_Culture_MinScore>
+    <RimMusic_Culture_InstCount>文化目標樂器編制: {0} 把</RimMusic_Culture_InstCount>
+    <RimMusic_Culture_KeyCount>氛圍關鍵詞生成數量: {0} 個</RimMusic_Culture_KeyCount>
+    <RimMusic_Culture_Realistic>強制 AI 生成現實可識別的樂器</RimMusic_Culture_Realistic>
+    <RimMusic_Culture_OpenMixer>打開文明調音台 (Culture Mixer)</RimMusic_Culture_OpenMixer>
+    <RimMusic_Culture_CleanCache>清理非當前世界線的冗餘快取</RimMusic_Culture_CleanCache>
+    <RimMusic_Error_NoActiveSave>請先進入一個具體的遊戲存檔！</RimMusic_Error_NoActiveSave>
+
+    <RimMusic_Fusion_Title>&lt;b&gt;&lt;size=14&gt;動態席位融合引擎&lt;/size&gt;&lt;/b&gt;</RimMusic_Fusion_Title>
+    <RimMusic_Fusion_Toggle>開啟多文化與襲擊樂器融合</RimMusic_Fusion_Toggle>
+    <RimMusic_Fusion_Minority>少數派同化線: &lt; {0} 忽略</RimMusic_Fusion_Minority>
+    <RimMusic_Fusion_Steal>襲擊搶奪線: {0}</RimMusic_Fusion_Steal>
+    <RimMusic_Fusion_Dominate>末日接管線: {0}</RimMusic_Fusion_Dominate>
+
+    <RimMusic_LLM_Title>&lt;b&gt;&lt;size=16&gt;&lt;color=#FFDD44&gt;文本推演引擎 (LLM Brain)&lt;/color&gt;&lt;/size&gt;&lt;/b&gt;</RimMusic_LLM_Title>
+    <RimMusic_LLM_Hint>&lt;i&gt;用於生成音樂提示詞的大語言模型。您可以選擇直接複用 RimTalk 的設置，或者為其配置獨立的硅基流動/DeepSeek 等高智商介面。&lt;/i&gt;</RimMusic_LLM_Hint>
+    <RimMusic_LLM_UseRimTalk>&lt;b&gt;[ 聯動 ] 直接調用 RimTalk 模組裡的 API 金鑰與模型&lt;/b&gt;</RimMusic_LLM_UseRimTalk>
+    <RimMusic_LLM_CustomTitle>&lt;b&gt;獨立 API 節點配置 (標準 OpenAI 格式)&lt;/b&gt;</RimMusic_LLM_CustomTitle>
+    <RimMusic_LLM_Url_Tip>例如: https://api.siliconflow.cn 或 https://api.deepseek.com</RimMusic_LLM_Url_Tip>
+    <RimMusic_LLM_Model_Tip>硅基流動填寫 deepseek-ai/DeepSeek-V3 官方 DeepSeek 填寫 deepseek-chat</RimMusic_LLM_Model_Tip>
+    <RimMusic_LLM_IntegrationActive>&lt;i&gt;(當前已開啟聯動，提示詞推演將由 RimTalk 模組代為執行請求)&lt;/i&gt;</RimMusic_LLM_IntegrationActive>
+
+    <RimMusic_Extraction_Title>&lt;b&gt;&lt;size=14&gt;劇情提取聯動參數&lt;/size&gt;&lt;/b&gt;</RimMusic_Extraction_Title>
+    <RimMusic_Extraction_Lines>提取對話歷史行數: {0} 行</RimMusic_Extraction_Lines>
+    <RimMusic_API_OverrideTitle>&lt;b&gt;&lt;size=14&gt;[API 介面] 外部種族/派系接管權限&lt;/size&gt;&lt;/b&gt;</RimMusic_API_OverrideTitle>
+    <RimMusic_API_RacePriority>優先讀取種族/派系專屬音樂</RimMusic_API_RacePriority>
+    <RimMusic_API_RaceFusion>允許種族專屬音樂加入宏觀融合</RimMusic_API_RaceFusion>
+
+    <RimMusic_HUD_SettingsTitle>&lt;b&gt;&lt;size=14&gt;懸浮窗 (HUD) 設置&lt;/size&gt;&lt;/b&gt;</RimMusic_HUD_SettingsTitle>
+    <RimMusic_HUD_Alpha>HUD 懸浮窗透明度: {0}</RimMusic_HUD_Alpha>
+    <RimMusic_AI_TruncateTitle>&lt;b&gt;&lt;size=14&gt;AI 生成文本截斷&lt;/size&gt;&lt;/b&gt;</RimMusic_AI_TruncateTitle>
+    <RimMusic_AI_MaxWords>單次最大字數: {0}</RimMusic_AI_MaxWords>
+    <RimMusic_Dev_Title>&lt;b&gt;&lt;size=14&gt;開發者選項&lt;/size&gt;&lt;/b&gt;</RimMusic_Dev_Title>
+    <RimMusic_Dev_DebugMode>開啟開發者底層狀態監視器 (Debug Mode)</RimMusic_Dev_DebugMode>
+
+    <RimMusic_AwaitingData>等待數據中...</RimMusic_AwaitingData>
+    <RimMusic_ResultPrompt>點擊測試生成以獲取結果...</RimMusic_ResultPrompt>
+    <RimMusic_Inspector_AutoRefresh>實時刷新 (Auto-Refresh)</RimMusic_Inspector_AutoRefresh>
+    <RimMusic_Inspector_Generating>生成中... (Generating)</RimMusic_Inspector_Generating>
+    <RimMusic_Inspector_TestGen>生成測試 (Test Generate)</RimMusic_Inspector_TestGen>
+    <RimMusic_Inspector_PreviewHeader>&lt;Prompt 預覽 - Preview&gt;</RimMusic_Inspector_PreviewHeader>
+    <RimMusic_Inspector_ResultHeader>&lt;AI 返回結果 - Result&gt;</RimMusic_Inspector_ResultHeader>
+    <RimMusic_Inspector_Requesting>正在請求 AI...</RimMusic_Inspector_Requesting>
+    <RimMusic_Inspector_PreviewFormat>=== 當前狀態: {0} | 焦點: {1} ===\n\n[Part 1: System]\n{2}\n\n[Part 2: User Context]\n{3}\n\n[Part 3: Mandatory Suffix]\n{4}</RimMusic_Inspector_PreviewFormat>
+
+    <RimMusic_PTab_System>系統指令</RimMusic_PTab_System>
+    <RimMusic_PTab_User>動態上下文</RimMusic_PTab_User>
+    <RimMusic_PTab_Mandatory>強制後綴</RimMusic_PTab_Mandatory>
+    <RimMusic_PTab_Presets>預設庫</RimMusic_PTab_Presets>
+
+    <RimMusic_PTab_System_Header>1. 系統設定 (System)</RimMusic_PTab_System_Header>
+    <RimMusic_PTab_User_Header>2. 動態上下文 (User Context)</RimMusic_PTab_User_Header>
+    <RimMusic_PTab_Mandatory_Header>3. 強制後綴 &amp; 格式 (Mandatory)</RimMusic_PTab_Mandatory_Header>
+
+    <RimMusic_Prompt_SystemName>AI 身份設定 (System)</RimMusic_Prompt_SystemName>
+    <RimMusic_Prompt_UserName>全量上下文 (User)</RimMusic_Prompt_UserName>
+    <RimMusic_Prompt_MandatoryName>輸出要求 (Mandatory)</RimMusic_Prompt_MandatoryName>
+    
+    <RimMusic_Preset_SaveTitle>保存當前配置</RimMusic_Preset_SaveTitle>
+    <RimMusic_Preset_SaveBtn>存為新預設</RimMusic_Preset_SaveBtn>
+    <RimMusic_Preset_LibraryTitle>預設彈藥庫</RimMusic_Preset_LibraryTitle>
+    <RimMusic_Preset_Empty>尚未發現任何預設。請在上方保存您的第一份戰術配置！</RimMusic_Preset_Empty>
+    <RimMusic_Preset_SavedMsg>預設保存成功。</RimMusic_Preset_SavedMsg>
+    <RimMusic_Preset_LoadConfirm>警告：即將載入預設 [{0}]，這會覆蓋您當前的提示詞配置，是否繼續？</RimMusic_Preset_LoadConfirm>
+    <RimMusic_Preset_LoadedMsg>預設已成功載入。</RimMusic_Preset_LoadedMsg>
+    <RimMusic_Preset_LoadBtn>載入</RimMusic_Preset_LoadBtn>
+    <RimMusic_Preset_DeleteBtn>刪除</RimMusic_Preset_DeleteBtn>
+
+    <RimMusic_Var_Title>&lt;b&gt;變數參考 (點擊插入)&lt;/b&gt;</RimMusic_Var_Title>
+    <RimMusic_Var_Cat_Macro>核心宏變數</RimMusic_Var_Cat_Macro>
+    <RimMusic_Var_Full_Name>全能整合包</RimMusic_Var_Full_Name>
+    <RimMusic_Var_Full_Tip>角色檔案/裝備/環境</RimMusic_Var_Full_Tip>
+    <RimMusic_Var_Event_Name>戰術事件</RimMusic_Var_Event_Name>
+    <RimMusic_Var_Event_Tip>動態戰術感知 + 短期迴響記憶</RimMusic_Var_Event_Tip>
+    <RimMusic_Var_Radar_Name>上帝之眼雷達</RimMusic_Var_Radar_Name>
+    <RimMusic_Var_Radar_Tip>滑鼠焦點的物理掃描</RimMusic_Var_Radar_Tip>
+    
+    <RimMusic_Var_Cat_Culture>民族與音色</RimMusic_Var_Cat_Culture>
+    <RimMusic_Var_Inst_Name>跨文化樂團</RimMusic_Var_Inst_Name>
+    <RimMusic_Var_Inst_Tip>基於當前派系融合的樂器</RimMusic_Var_Inst_Tip>
+    <RimMusic_Var_Vibe_Name>流派與氛圍</RimMusic_Var_Vibe_Name>
+    <RimMusic_Var_Vibe_Tip>在文化調音台中定義的音樂流派、情緒基調與特定演奏技巧描述</RimMusic_Var_Vibe_Tip>
+    
+    <RimMusic_Var_Cat_Env>環境與系統</RimMusic_Var_Cat_Env>
+    <RimMusic_Var_State_Name>鏡頭模式</RimMusic_Var_State_Name>
+    <RimMusic_Var_State_Tip>Combat / Micro / Macro</RimMusic_Var_State_Tip>
+    <RimMusic_Var_Speed_Name>時間流速</RimMusic_Var_Speed_Name>
+    <RimMusic_Var_Speed_Tip>Paused / 1x / 2x...</RimMusic_Var_Speed_Tip>
+    <RimMusic_Var_Season_Name>當前季節</RimMusic_Var_Season_Name>
+    <RimMusic_Var_Season_Tip>Spring / Summer...</RimMusic_Var_Season_Tip>
+    <RimMusic_Var_Weather_Name>天氣與氛圍</RimMusic_Var_Weather_Name>
+    <RimMusic_Var_Weather_Tip>Clear, Windy...</RimMusic_Var_Weather_Tip>
+    <RimMusic_Var_Danger_Name>威脅等級</RimMusic_Var_Danger_Name>
+    <RimMusic_Var_Danger_Tip>Safe / Danger</RimMusic_Var_Danger_Tip>
+    <RimMusic_Var_Cat_Micro>焦點角色 (Micro)</RimMusic_Var_Cat_Micro>
+    <RimMusic_Var_Focus_Name>焦點名字</RimMusic_Var_Focus_Name>
+    <RimMusic_Var_Focus_Tip>殖民者/囚犯/敵人名字</RimMusic_Var_Focus_Tip>
+    <RimMusic_Var_Act_Name>當前活動</RimMusic_Var_Act_Name>
+    <RimMusic_Var_Act_Tip>正在做什麼</RimMusic_Var_Act_Tip>
+    <RimMusic_Var_Mood_Name>個體心情</RimMusic_Var_Mood_Name>
+    <RimMusic_Var_Mood_Tip>當前心情百分比</RimMusic_Var_Mood_Tip>
+    <RimMusic_Var_Thought_Name>核心想法</RimMusic_Var_Thought_Name>
+    <RimMusic_Var_Thought_Tip>最強烈的前三個想法</RimMusic_Var_Thought_Tip>
+
+</LanguageData>
