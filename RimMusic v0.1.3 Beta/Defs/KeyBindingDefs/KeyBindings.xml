@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 此 KeyBindingDef 仅保留向后兼容与玩家旧习惯。
+       当前 HUD 悬浮窗快捷键已迁移至 Mod 选项 (RimMusicSettings) 独立管理，不再读取此绑定。
+       请在 Mod 选项 → 悬浮窗设置中自定义呼出快捷键。 -->
+  <KeyBindingDef>
+    <defName>OpenRimMusicInspector</defName>
+    <label>Open HUD (legacy, now configured in Mod Settings)</label>
+    <category>MainTabs</category>
+    <defaultKeyCodeA>M</defaultKeyCodeA>
+  </KeyBindingDef>
+</Defs>
