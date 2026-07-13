@@ -207,7 +207,9 @@ namespace RimMusic.Core
                 {
                     _pendingBoostSongs.Add(latest);
                     latest.commonality = boost;
-                    Log.Message($"[RimMusic] AutoGen: boosted '{latest.defName}' weight→{boost}, will restore on first play.");
+                    // 清掉原版 recentSongs 队里这首——否则原版 AppropriateNow 会踢它(boost 权再高也选不到)
+                    RealtimeMusicEngine.PurgeFromRecentSongs(latest);
+                    Log.Message($"[RimMusic] AutoGen: boosted '{latest.defName}' weight→{boost}, purged from recentSongs, will restore on first play.");
                 }
                 else { Log.Warning("[RimMusic] AutoGen: LastRegisteredSong is null, skip boost."); }
             }
