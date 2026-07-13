@@ -47,12 +47,6 @@ namespace RimMusic.Core
         private static readonly FieldInfo _gameObjectCreatedField
             = AccessTools.Field(typeof(MusicManagerPlay), "gameObjectCreated");
 
-        // 反射拿原版 MusicManagerPlay.recentSongs 队列:原版 AppropriateNow 用 recentSongs.Contains(song)
-        // 踢掉刚播过的曲(队列上限7)。boost 的曲若刚被播一次进了队,权重再高也选不到——
-        // boost 时清掉队里这首,保证立即可选。
-        private static readonly AccessTools.FieldRef<MusicManagerPlay, Queue<SongDef>> _recentSongsRef
-            = AccessTools.FieldRefAccess<Queue<SongDef>>(typeof(MusicManagerPlay), "recentSongs");
-
         // 替补播放器的暂停态(独立于原版自己的暂停逻辑,我们额外掐 audioSource)
         private static bool _fallbackPaused = false;
 
@@ -107,27 +101,6 @@ namespace RimMusic.Core
             if (mp == null) return;
             _fallbackPaused = false;
             mp.StartNewSong();
-        }
-
-        // 把指定 SongDef 从原版 recentSongs 队列里清掉——保证 boost 的曲立即可选,
-        // 不被原版"刚播过"踢出候选池。队列上限7,清掉一首原版会自然补新。
-        public static void PurgeFromRecentSongs(SongDef song)
-        {
-            if (song == null) return;
-            var mp = Find.MusicManagerPlay;
-            if (mp == null) return;
-            try
-            {
-                var queue = _recentSongsRef(mp);
-                if (queue == null || queue.Count == 0) return;
-                // Queue<SongDef> 没 RemoveAll,重建一新队列跳过目标首
-                var leftover = queue.Where(s => s != song).ToList();
-                if (leftover.Count == queue.Count) return; // 不在队里,免动
-                queue.Clear();
-                foreach (var s in leftover) queue.Enqueue(s);
-                Log.Message($"[RimMusic] Purged '{song.defName}' from vanilla recentSongs queue (was blocking AppropriateNow).");
-            }
-            catch (Exception ex) { Log.Warning($"[RimMusic] PurgeFromRecentSongs failed: {ex.Message}"); }
         }
 
         // 同 NextTrack——原版没有"上一首"概念,替补播放器也照搬,让原版重选

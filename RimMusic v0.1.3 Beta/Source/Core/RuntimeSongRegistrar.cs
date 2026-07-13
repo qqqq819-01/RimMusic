@@ -111,7 +111,13 @@ namespace RimMusic.Core
             if (existingDef != null)
             {
                 SongDef existing = DefDatabase<SongDef>.GetNamedSilentFail(existingDef);
-                if (existing != null) return existing; // 真存在,跳过
+                if (existing != null)
+                {
+                    // 幂等命中:仍要把 _lastRegisteredSong 指向这首真正返回的曲,
+                    // 否则 BoostLatestRegisteredSong 会 boost 上一首旧曲,刚注入的反而没 boost。
+                    _lastRegisteredSong = existing;
+                    return existing; // 真存在,跳过
+                }
                 // 清单说有但 DefDatabase 里没有(重启后常见)——清掉陈旧映射,重新注入
                 _registered.Remove(existingDef);
             }
@@ -140,6 +146,9 @@ namespace RimMusic.Core
                         && string.Equals(existingSameName.clip.name, clip.name, StringComparison.OrdinalIgnoreCase);
                     if (sameClip)
                     {
+                        // 幂等命中:仍要把 _lastRegisteredSong 指向这首真正返回的曲,
+                        // 否则 BoostLatestRegisteredSong 会 boost 上一首旧曲,刚注入的反而没 boost。
+                        _lastRegisteredSong = existingSameName;
                         Log.Message($"[RimMusic] Register skipped (duplicate): '{defName}' already injected with same clip.");
                         return existingSameName;
                     }

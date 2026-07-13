@@ -143,8 +143,13 @@ namespace RimMusic
         public float AutoGenPeaceInitialCooldown = 5f * 60f;
         public float AutoGenWarInitialCooldown = 0f;
 
-        // 新生成曲临时极高权重,保证下一首随机必中。播放开始一次后立刻恢复。
-        public float AutoGenTemporaryBoostWeight = 1000f;
+        // 新生成曲临时极高权重,保证下一首加权随机必中。播放开始一次后立刻恢复。
+        // 注意:原版 ChooseNextSong 末尾用 RandomElementByWeight(s => s.commonality) 选曲,
+        // 这是**加权随机抽样**,不是"取权重最高"。boost 曲被选中概率 = boost / (boost + 池内其他曲权重和)。
+        // 池里可能有几十首权重 2f 的 AI 曲,总权重可达上百;若 boost 仅 1000f,漏选率约 9%,
+        // 表现为"切 1-2 首才切到刚生成的"。故 boost 必须远大于池总权重,使漏选率趋近 0。
+        // 100000f:即便池里 100 首 AI 曲(总权重 200),漏选率也仅 0.2%,实际场景下必中。
+        public float AutoGenTemporaryBoostWeight = 100000f;
 
         // 生成完成后立刻切歌(让原版 StartNewSong 选下一首,boost 权重会选中刚生成的)。
         // 关=只注入不切,等原版自然切换时才选到;开=生成完立即切到刚生成的曲。
@@ -266,7 +271,7 @@ namespace RimMusic
             Scribe_Values.Look(ref AutoGenDailyLimit, "AutoGenDailyLimit", 3);
             Scribe_Values.Look(ref AutoGenPeaceInitialCooldown, "AutoGenPeaceInitialCooldown", 5f * 60f);
             Scribe_Values.Look(ref AutoGenWarInitialCooldown, "AutoGenWarInitialCooldown", 0f);
-            Scribe_Values.Look(ref AutoGenTemporaryBoostWeight, "AutoGenTemporaryBoostWeight", 1000f);
+            Scribe_Values.Look(ref AutoGenTemporaryBoostWeight, "AutoGenTemporaryBoostWeight", 100000f);
             Scribe_Values.Look(ref AutoGenSwitchOnComplete, "AutoGenSwitchOnComplete", false);
 
             // HUD 悬浮窗快捷键 — 持久化到 Mod 自己的设置文件，独立于游戏全局按键绑定配置

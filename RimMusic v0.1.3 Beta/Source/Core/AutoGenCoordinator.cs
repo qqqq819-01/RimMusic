@@ -22,9 +22,16 @@ namespace RimMusic.Core
     // 每日(游戏内一天)上限 AutoGenDailyLimit(默认 3),可在 Mod 选项调。
     //   上限按游戏内日切换: GenDate.Ticks 与 _dailyLimitResetDate 不同时清零计数。
     //
-    // 新生成曲注入时临时极高权重(AutoGenTemporaryBoostWeight,默认 1000),
-    // 保证下一首随机必中——但尊重原版 tense 标签(战时只播 tense=true,和平只播 tense=false),
+    // 新生成曲注入时临时极高权重(AutoGenTemporaryBoostWeight,默认 100000),
+    // 让下一首加权随机必中——但尊重原版 tense 标签(战时只播 tense=true,和平只播 tense=false),
     // 若当前模式与新生成曲 tense 不符(不该发生,但防御)则不 boost。
+    //
+    // 关键:原版 ChooseNextSong 末尾用 RandomElementByWeight(s => s.commonality) 选曲,
+    // 这是**加权随机抽样**,不是"取权重最高"。boost 曲被选中概率 = boost / (boost + 池内其他曲权重和)。
+    // 池里可能有几十首权重 2f 的 AI 曲,总权重上百;若 boost 仅 1000f,漏选率约 9%,
+    // 表现为"切 1-2 首才切到刚生成的"。故 boost 必须远大于池总权重,使漏选率趋近 0。
+    // 100000f:即便池里 100 首 AI 曲(总权重 200),漏选率也仅 0.2%,实际场景下必中。
+    //
     // 原版 StartNewSong 选中它开始播放一次后,立刻恢复原权重(InjectSongWeight)。
     // =========================================================================
     public static class AutoGenCoordinator
@@ -207,9 +214,7 @@ namespace RimMusic.Core
                 {
                     _pendingBoostSongs.Add(latest);
                     latest.commonality = boost;
-                    // 清掉原版 recentSongs 队里这首——否则原版 AppropriateNow 会踢它(boost 权再高也选不到)
-                    RealtimeMusicEngine.PurgeFromRecentSongs(latest);
-                    Log.Message($"[RimMusic] AutoGen: boosted '{latest.defName}' weight→{boost}, purged from recentSongs, will restore on first play.");
+                    Log.Message($"[RimMusic] AutoGen: boosted '{latest.defName}' weight→{boost}, will restore on first play.");
                 }
                 else { Log.Warning("[RimMusic] AutoGen: LastRegisteredSong is null, skip boost."); }
             }
