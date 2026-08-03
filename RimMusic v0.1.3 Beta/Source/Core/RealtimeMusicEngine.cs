@@ -184,11 +184,9 @@ namespace RimMusic.Core
             // allowed"), so short-circuit: read the local file directly.
             if (url != null && url.StartsWith("file://", StringComparison.OrdinalIgnoreCase))
             {
-                string localPath = url.Substring(7);
-                if (localPath.StartsWith("/")) localPath = localPath.TrimStart('/');
-                localPath = localPath.Replace('/', System.IO.Path.DirectorySeparatorChar);
                 try
                 {
+                    string localPath = new Uri(url).LocalPath;
                     byte[] data = System.IO.File.ReadAllBytes(localPath);
                     _mainThreadActions.Enqueue(() => Log.Message($"[RimMusic] Loaded grounded audio ({data.Length} bytes) from {localPath}"));
                     return data;
