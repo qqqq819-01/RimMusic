@@ -37,7 +37,7 @@ namespace RimMusic.Data
 
             float dt = Time.realtimeSinceStartup - _lastRealTime;
             _lastRealTime = Time.realtimeSinceStartup;
-            if (dt > 0.5f) dt = 0.016f;
+            if (dt <= 0f || dt > 0.5f) dt = 0.016f;
 
             Vector3 curMousePos = Verse.UI.MouseMapPosition();
             float moveSpeed = (curMousePos - _lastMousePos).magnitude / dt;

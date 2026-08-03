@@ -724,7 +724,6 @@ namespace RimMusic.UI
             H("RimMusic_Var_Cat_Culture".Translate());
             // [V0.1.1 Beta] Introduced Culture Vibe Variable
             V("{{music.culture_vibe}}", "RimMusic_Var_Vibe_Name".Translate(), "RimMusic_Var_Vibe_Tip".Translate(), "#FF88FF");
-            V("{{music.culture_vibe}}", "RimMusic_Var_Vibe_Name".Translate(), "RimMusic_Var_Vibe_Tip".Translate(), "#FF88FF");
             V("{{music.culture_instruments}}", "RimMusic_Var_Inst_Name".Translate(), "RimMusic_Var_Inst_Tip".Translate(), "#FF88FF");
 
             H("RimMusic_Var_Cat_Env".Translate());
